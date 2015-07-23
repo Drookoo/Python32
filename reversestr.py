@@ -1,13 +1,15 @@
-#doesnt work
+#comes out weird 
 print("""
 Whalecum to my Reverse-a-string script.
 Input a string of words to begin.""")
 
-import string 
+import re
 
 sentence = input()
+re.findall(r'\w+', sentence)
 
-words = int(len(sentence))  
+for new in reversed(sentence):
+	print(new)
 
-	
-print(sentence[words - 1])
+
+

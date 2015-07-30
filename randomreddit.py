@@ -1,3 +1,9 @@
+"""
+When I'm bored, I like browsing new things on reddit. 
+This tool helps you. Too bad that reddit's random is not very random.
+You will see why if you use this tool in large quantities.
+"""
+
 import webbrowser
 
 url = 'https://reddit.com/r/random'

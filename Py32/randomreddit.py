@@ -8,8 +8,7 @@ import webbrowser
 
 url = 'https://reddit.com/r/random'
 
-print("How many random subreddits would you like to visit?")
-amount = input()
+amount = input("How many random subreddits would you like to visit? ")
 
 x = 1
 

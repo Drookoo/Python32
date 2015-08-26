@@ -11,8 +11,7 @@ list1 = ['Airplane', 'Bank', 'Beach', 'Cathedral', 'Circus Tent',
 		'Police Station', 'Restaurant', 'School', 'Service Station',
 		'Submarine', 'Supermarket', 'Theater', 'University', 'War Zone']
  
-print("Hi, enter the number of players in your game.")
-players = input()
+players = input("Hi, enter the number of players in your game. ")
 
 x = 1
 playernames = []
@@ -26,9 +25,3 @@ while x <= int(players):
 random.shuffle(playernames)	
 random.shuffle(list1)
 print(playernames[0], "is the spy. And", list1[0], "is the location")
-
-
-
-
-
-

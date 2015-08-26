@@ -3,8 +3,7 @@ import random
 
 guessesTaken = 0
 
-print('Hello! What is your name?')
-myname = input()
+myname = input("Hello! What is your name?")
 
 number = random.randint(1,20)
 print('Well, ' + myname + ', I am thinking of a number between 1 and 20.')

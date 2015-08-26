@@ -6,8 +6,7 @@ roles are. This tool assumes you have 2 bad guys, 1 cop and an angel.
 
 import random
 
-print("Hi, enter the number of players in your game")
-players = input()
+players = input("Hi, enter the number of players in your game")
 
 x = 1
 playernames = []

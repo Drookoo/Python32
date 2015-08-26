@@ -1,8 +1,8 @@
-print("""
+"""
 Whalecum to my English to Pig Latin Translator.
-Input your desired English word.""")
+Input your desired English word."""
 	
-word = input()
+word = input("Input your desired word ")
 
 Vowel = ['a', 'e', 'i', 'o', 'y', 'u', 'A', 'E', 'I', 'O', 'U', 'Y']
 if [word[0]] not in Vowel:

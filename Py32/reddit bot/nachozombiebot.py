@@ -1,9 +1,10 @@
 import time
 import praw
-r = praw.Reddit('PRAW related-question monitor by /u/_Daimon_ v 1.0. ')
+r = praw.Reddit('PRAW test bot by /u/nachozombie v 1.0. ')
 r.login()
 already_done = []
 prawWords = ['test']
+#
 while True:
 	subreddit = r.get_subreddit('nachozombie')
 	for submission in subreddit.get_hot(limit = 10):

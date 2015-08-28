@@ -10,8 +10,9 @@ while True:
 		op_text = submission.selftext.lower()
 		has_praw = any(string in op_text for string in prawWords)
 		
+		#r.send_message('redditor','msg title',body message)
 		if submission.id not in already_done and has_praw:
 			msg = 'SUCCESS'
 			r.send_message('nachozombie','BLASTOFF',msg)
 			already_done.append(submission.id)
-	time.sleep(1800)
+	time.sleep(30)

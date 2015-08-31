@@ -1,5 +1,6 @@
+#Displays a square 
+#square will bounce
 import pygame
-# Fixes executive file error
 import pygame._view
 pygame.init() 
 

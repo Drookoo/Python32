@@ -1,3 +1,4 @@
+# use mouse. collect squares
 import pygame
 import random
 

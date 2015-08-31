@@ -1,7 +1,8 @@
 """
-When I'm bored, I like browsing new things on reddit. 
-This tool helps you. Too bad that reddit's random is not very random.
-You will see why if you use this tool in large quantities.
+browse random subreddits.
+don't input numbers over 90 if you have potato processor 
+ie: not ivy bridge, not sandy bridge, not haswell?
+I used bloomfield so I would know.
 """
 
 import webbrowser

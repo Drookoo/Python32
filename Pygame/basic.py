@@ -1,3 +1,4 @@
+#the most basic of pygame programs 
 import pygame
 pygame.init() 
 

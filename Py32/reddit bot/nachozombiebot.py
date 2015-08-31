@@ -1,6 +1,6 @@
 import time
 import praw
-r = praw.Reddit('PRAW test bot by /u/nachozombie v 1.0. ')
+r = praw.Reddit('PRAW test robo by /u/nachozombie v 1.0. ')
 r.login()
 already_done = []
 prawWords = ['test']

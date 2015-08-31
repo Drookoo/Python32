@@ -1,3 +1,4 @@
+#the following are notes to self:
 #search if commented already 
 #search if I have replied to this user in the past 12 hours
 #storing data in file

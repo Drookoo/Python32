@@ -1,3 +1,4 @@
+# used to pm a redditor if topic of interest is posted in the body of a text post
 import time
 import praw
 r = praw.Reddit('PRAW test robo by /u/nachozombie v 1.0. ')

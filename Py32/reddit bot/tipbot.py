@@ -1,3 +1,6 @@
+#if the subreddit is very inactive (~10 posts every 12 hours), terminal will spit out errors 
+#that cannot be fixed clientside  
+#use newtipbot.py instead (this effort was abandoned in favor of the latter)
 import praw
 r = praw.Reddit('/r/dogecoin tipping robo by /u/nachozombie v0.1')
 

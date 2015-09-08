@@ -5,7 +5,8 @@
 import praw
 r = praw.Reddit('/r/dogecoin tipping robo by /u/nachozombie v0.1')
 
-r.login('nachozombiebot','nachozombie')
+#I don't mind if you use my throwaway 
+r.login()
 already_done = []
 prawWords = ["a","i"]
 

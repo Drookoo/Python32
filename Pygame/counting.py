@@ -1,21 +1,9 @@
-#doesnt work 
-import math, random
+import time 
 
 Number = 1
+print(Number)
 
-def print_instructions():
-	print("""
-		Whalecum to Andrew's Counting Game. This is a work in progress.
-		The game will count forever. EZPZ
-		""")
-		
-def main():
-	print_instructions()
-	
-	done = False
-	while not done:
-		print(Number + 1) 
-	
-
-
-
+while True: 
+	Number = Number + 1 
+	print(Number)
+	time.sleep(1)

@@ -16,24 +16,15 @@ def target():
 		prawWords.append(interests)
 		x = x + 1
 
-def get_subreddit():
-	sub = input("Subreddit: ")
-	return sub
-	
-def get_comment():
-	response = input("Comment: ")
-	return response
-	
 def loop():	
 	already_done = []
 	while True:
-		subreddit = r.get_subreddit(get_subreddit)
+		subreddit = r.get_subreddit('nachozombie')
 		for submission in subreddit.get_new(limit = 5):
 			if submission.id not in already_done:
-				submission.add_comment(get_comment())
-				already_done.append(submission.id)
-	time.sleep(15)			
-	
+				submission.add_comment('tacoking')
+				already_done.append(submission.id)			
+	# sleep is for the weak	
 def main():
 	startup()
 	target()

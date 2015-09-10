@@ -1,7 +1,7 @@
 # if bot restarts, posts are not saved locally and bot will reply again
 import praw
 import time
-r = praw.Reddit('subreddit commenting robo by /u/nachozombie v0.1')
+r = praw.Reddit('subreddit commenting robo by /u/nachozombie v1.0')
 
 def startup():
 	r.login()
@@ -26,11 +26,13 @@ def get_comment():
 	
 def loop():	
 	already_done = []
+	soob = get_subreddit()
+	comment = get_comment()
 	while True:
-		subreddit = r.get_subreddit(get_subreddit)
+		subreddit = r.get_subreddit(soob)
 		for submission in subreddit.get_new(limit = 5):
 			if submission.id not in already_done:
-				submission.add_comment(get_comment())
+				submission.add_comment(comment)
 				already_done.append(submission.id)
 	time.sleep(15)			
 	

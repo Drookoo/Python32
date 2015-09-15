@@ -21,7 +21,7 @@ done = False
 clock = pygame.time.Clock()
 
 # Rectangle Start Position 
-rect_x = 50 
+rect_x = 50
 rect_y = 50
 
 # Rectangle Speed and Direction 

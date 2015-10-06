@@ -4,10 +4,9 @@ class Friend:
 	def __init__(self, name, game):
 		self.name = name
 		self.game = game 
-		Friend.frndcount +- 1
-	
-	def displayCount(self):
-		print("Total Friends %d") % Friend.frndcount
 	
 	def displayFriend(self):
-		print("Name: ", self.name, ", Game: ", self.game)
+		print("Name:", self.name, ", Game:", self.game)
+
+buddy1 = Friend("Dog", "Payday 2")
+buddy1.displayFriend()

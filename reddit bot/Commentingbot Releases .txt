@@ -1,2 +1,5 @@
 
 v. 1.0: 9/10/15. Full version of bot completed and working. 
+v. 1.1	10/8/15. Added logging capability.
+				 Added "don't comment twice" into logic.
+				 Hid secret stuff

@@ -1,5 +1,6 @@
-# reddit bot login
-config.txt
+# reddit bot stuffs
+bot_config.py
+already_done.txt
 
 # Windows image file caches
 Thumbs.db

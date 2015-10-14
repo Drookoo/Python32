@@ -4,4 +4,3 @@ v. 1.1: 10/8/15. Added logging capability.
 				 Added "don't comment twice" into logic.
 				 Hid secret stuff
 v. 1.2: 10/13/15. Actually works. haha   
-                 https://app.box.com/s/ioy7qbyh6oiqvmaf4gmtzcmu9y6rnpmj

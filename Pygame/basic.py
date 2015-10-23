@@ -1,12 +1,7 @@
 #the most basic of pygame programs 
 import pygame
+from colors import *
 pygame.init() 
-
-# Color
-BLCK = (0  , 0  , 0)
-WHT  = (255, 255, 255)
-GRN  = (0  , 225, 0)
-RD   = (255, 0  , 0)
 
 size = (700, 500)
 screen = pygame.display.set_mode(size)
@@ -24,7 +19,7 @@ while not done:
 		if event.type == pygame.QUIT:
 			done = True
 	
-	screen.fill(WHT)
+	screen.fill(WHITE)
 	pygame.display.flip()
 	clock.tick(60)
 pygame.quit()

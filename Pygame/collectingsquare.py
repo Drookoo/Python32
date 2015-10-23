@@ -1,10 +1,17 @@
 # use mouse. collect squares
 import pygame
 import random
+from colors import *
 
-BLACK = (  0,   0,   0)
-WHITE = (255, 255, 255)
-RED   = (255,   0,   0)
+screen_width = 700
+screen_height = 400
+screen = pygame.display.set_mode([screen_width, screen_height])
+done = False
+clock = pygame.time.Clock()
+score = 0
+block_list = pygame.sprite.Group()
+
+all_sprites_list = pygame.sprite.Group()
 
 class Block(pygame.sprite.Sprite):
 	def __init__(self, color, width, height):
@@ -13,14 +20,6 @@ class Block(pygame.sprite.Sprite):
 		self.image.fill(color)
 		self.rect = self.image.get_rect()
 pygame.init()
-
-screen_width = 700
-screen_height = 400
-screen = pygame.display.set_mode([screen_width, screen_height])
-
-block_list = pygame.sprite.Group()
-
-all_sprites_list = pygame.sprite.Group()
 
 for i in range(50):
 	block = Block(BLACK, 20, 15)
@@ -31,12 +30,6 @@ for i in range(50):
 
 player = Block(RED, 20, 15)
 all_sprites_list.add(player)
-
-done = False
-
-clock = pygame.time.Clock()
-
-score = 0
 
 while not done: 
 	for event in pygame.event.get():

@@ -1,5 +1,6 @@
 # reddit bot stuffs
 bot_config.py
+posts_replied_to.txt
 already_done.txt
 
 # Windows image file caches
